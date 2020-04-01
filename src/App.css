@@ -1,38 +1,126 @@
-.App {
+ .bb img{
+  width:200px;
+   height:310px
+  
+
+ }
+
+ .bb{
+  background-color: rgb(228, 226, 226);
+  width: 200px;
+  height: 430px;
+  
+ }
+ .bb button{
+  margin-top: 83px;
+  margin-left: 13px;
+
+ }
+ .bb h6{
+  margin-top: 2px;
+  position: absolute;
+  margin-left: 67px;
+  font-family: monospace;
+  font-size: 22px;
+ }
+ .bb span{
+  margin-top: 335px;
+  position: absolute;
+  margin-left: 66px;
+}
+
+ .btn1{
+  border-radius: 6px;
+    width: 81px;
+    height: 29px;
+    background-color: gray;
+ }
+ .btn2{
+  border-radius: 6px;
+  width: 81px;
+  height: 29px;
+  background-color: gray;
+ }
+ .bb a{
+  margin-top: 356px;
+  position: absolute;
+  margin-left: -172px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 141px;
   text-align: center;
-}
+  text-decoration: none;
+  color: black;
+ }
+ .search{
+   margin-top: 20px;
+   background-color: rgb(221, 218, 218);
+   height: 40px;
+ }
+ .search input{
+  margin-left: 200px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 5px;
+  border-radius: 6px;
+  height: 25px;
+  width: 244px;
+ }
+ .search span{
+  margin-top: 11px;
+  margin-left: 8px;
+ }
+ .bloc1{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 40px;
+ }
+ .add{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    flex-direction: column;
+    width: 336px;
+    justify-content: space-around;
+    height: 331px;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 561px;
+    border-radius: 15px;
+ }
+ .add button{
+  width: 121px;
+  height: 40px;
+  margin-left: 112px;
+  border-radius: 6px;
+  background-color: green;
+ }
+ .add textarea{
+  height: 80px;
+  width: 298px;
+  margin-left: 15px;
+ }
+ .add input{
+  width: 300px;
+  height: 30px;
+  margin-left: 17px;
+  border-radius: 6px;
+ }
+ .noadd{
+   display: none;
+ }
+ .plus{
+  width: 200px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+ }
+ .plus h2{
+  margin-left: 77px;
+  margin-top: 144px;
+  font-size: 64px;
+  position: relative;
+ }
+ 
+  .spinner{
+    text-align: center;
+  
+ }

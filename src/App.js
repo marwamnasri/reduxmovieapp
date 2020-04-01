@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header';
+import Movielist from './component/Movielist';
+import Addmovie from './component/Addmovie';
+import HOC from "./component/HOC"
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Description from "./component/Description"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return ( <Router>
+      <Route path="/" render={()=><Header/>}/>
+      <Route path ="/" component ={Addmovie}/>
+      <Route  exact path ='/' component ={Movielist}/>
+      <Route path ="/Description/:id" component ={Description}/>
+      </Router>);
 }
 
-export default App;
+
+export default HOC(App);
